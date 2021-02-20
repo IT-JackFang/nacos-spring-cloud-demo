@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: example
+  cloud:
+    nacos:
+      config:
+        server-addr: http://localhost:8848
+        file-extension: properties
